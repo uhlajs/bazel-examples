@@ -18,6 +18,9 @@ py_library(
 py_binary(
     name = "hello_world",
     srcs = ["__main__.py"],
+    data = [
+        "//hello_world/data",
+    ],
     imports = [".."],
     main = "__main__.py",
     visibility = ["//:__subpackages__"],
