@@ -24,6 +24,7 @@ py_binary(
     deps = [
         ":hello_world_lib",
         requirement("cowsay"),
+        requirement("bazel-runfiles"),
     ],
 )
 
