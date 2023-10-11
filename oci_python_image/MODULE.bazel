@@ -3,7 +3,7 @@ module(
    name = "my_module",
 )
 
-bazel_dep(name = "aspect_bazel_lib", version = "1.31.2")
+bazel_dep(name = "aspect_bazel_lib", version = "1.32.0")
 bazel_dep(name = "container_structure_test", version = "1.15.0")
 bazel_dep(name = "rules_pkg", version = "0.9.1")
 bazel_dep(name = "aspect_rules_py", version = "0.3.0")
